@@ -1,6 +1,9 @@
 body {
   margin-right: 0px;
   margin-left: 0px;
+  font-family: Arial, sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 nav {
@@ -25,7 +28,6 @@ nav li {
   float: left;
   display: flex;
   align-items: center;
-  font-family: Arial, sans-serif;
 }
 
 nav li a, p, button {
@@ -51,9 +53,11 @@ nav li img {
 }
 
 footer {
-  font-family: Arial, sans-serif;
   position: fixed;
   bottom: 0;
+  right: 0;
+  padding: 5px;
+  background-color: grey;
 }
 
 main {
@@ -66,26 +70,49 @@ main div.top {
 }
 
 main div.top div.head_text h1, h3 {
-  font-family: Arial, sans-serif;
+  margin-left: 60px;
+}
+
+main div.top div.head_text h1 {
+  font-size: 60px;
+  line-height: 80px;
+}
+
+main div.top div.head_text h3 {
+  font-size: 30px;
 }
 
 main div.top div.head_text {
   display: inline-block;
-  order: 1
 }
 
 main div.top div.info_text {
   display: flex;
   justify-content: flex-start;
-  order: 3;
+}
+
+main div.top div.collumn {
+    column-count: 2;
+    column-gap: 0px;
+    column-width: 100px
 }
 
 main div.top img {
-  float: right;
-  right: 50px;
   display: inline;
+  margin-top: 50px;
+  margin-left: 50px;
   position: relative;
-  width: 1200px;
-  height: 150px;
-  order: 2;
+  right: 400px;
+  width: 1000px;
+  height: 250px;
+}
+
+
+main div.bottom div.text {
+  margin: 16px;
+}
+
+main div.bottom div.text p {
+  padding: 0px;
+  max-width: 1000px;
 }
