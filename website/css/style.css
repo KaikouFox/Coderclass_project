@@ -56,9 +56,24 @@ footer {
   position: fixed;
   bottom: 0;
   right: 0;
+  padding: 25px;
+  padding-left: 400px;
+}
+
+footer strong {
+  display: none;
+}
+
+footer:hover strong {
+  position: fixed;
+  bottom: 0;
+  right: 0;
   padding: 5px;
   background-color: grey;
+  display: block;
 }
+
+/*css for index.html*/
 
 main {
   padding-top: 71.681px;
@@ -115,4 +130,70 @@ main div.bottom div.text {
 main div.bottom div.text p {
   padding: 0px;
   max-width: 1000px;
+}
+
+/*css for info.html*/
+
+main div.idea {
+    column-count: 2;
+    column-gap: 0px;
+    column-width: 700px
+}
+
+main div.idea img {
+  float: right;
+  width: 500px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+main div.idea div.text {
+ margin: 10px;
+}
+
+main div.idea div.text p {
+  margin-left: 10px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+main div.idea div.text h1 {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+main div.project {
+    column-count: 2;
+    column-gap: 0px;
+    column-width: 700px
+}
+
+main div.project img {
+  float: left;
+  width: 500px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+main div.project div.text {
+ margin: 10px;
+ float: right;
+}
+
+main div.project div.text p {
+  margin-right: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  text-align: end;
+  float: right;
+}
+
+main div.project div.text h1 {
+  margin-right: 30px;
+  margin-bottom: 10px;
+  float: right;
 }
