@@ -55,9 +55,10 @@ nav li img {
 footer {
   position: fixed;
   bottom: 0;
-  right: 0;
-  padding: 25px;
-  padding-left: 400px;
+  right: 25%;
+  left: 25%;
+  padding-top: 50px;
+  width: 50%;
 }
 
 footer strong {
@@ -67,10 +68,13 @@ footer strong {
 footer:hover strong {
   position: fixed;
   bottom: 0;
-  right: 0;
+  right: 25%;
+  left: 25%;
   padding: 5px;
   background-color: grey;
   display: block;
+  width: 50%;
+  text-align: center;
 }
 
 /*css for index.html*/
